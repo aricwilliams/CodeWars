@@ -273,8 +273,67 @@ public class program
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Given a set of numbers, return the additive inverse of each. Each positive becomes negatives, and the negatives become positives.
+
+// invert([1,2,3,4,5]) == [-1,-2,-3,-4,-5]
+// invert([1,-2,3,-4,5]) == [-1,2,-3,4,-5]
+// invert([]) == []
+
+
+// using System.Linq;
+// namespace Solution
+// {
+//   public static class ArraysInversion
+//   {
+//     public static int[] InvertValues(int[] input)
+//     {
+//         for (int i = 0; i < input.Length; i++)
+//         {
+//             input[i] = input[i] * -1;
+//         }
+//         return input;
+//     }
+//   }
+// }
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////
+// Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
+
+
+
+
+// using System;
+
+// namespace Solution
+// {
+//   public class SolutionClass
+//   {
+//     public static string EvenOrOdd(int number)
+//     {
+//       return number % 2 == 0 ? "Even" : "Odd";
+//     }
+//   }
+// }
+
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Implement a function which convert the given boolean value into its string representation.
+
+
+
+
+// using System;
+
+// public class kata
+// {
+//   public static string boolean_to_string(bool b)
+//   {
+//   return b.ToString();
+//   }
+// }
+
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////
